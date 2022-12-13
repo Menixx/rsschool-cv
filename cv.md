@@ -1,5 +1,4 @@
 # Andrii Mordovets          
-<div id="top"></div>
 
 ## Contacts:
 * +380972124845
