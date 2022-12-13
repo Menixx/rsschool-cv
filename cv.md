@@ -1,7 +1,7 @@
 # Andrii Mordovets          
 
 ## Contacts:
-* +380972124845   
+* +380972124845
 * andreymordovets@gmail.com
 * Menix#1427
 
