@@ -1,0 +1,23 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background-color: aqua;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+h1 {
+    color: blue;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
