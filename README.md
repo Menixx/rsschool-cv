@@ -1,1 +1,1 @@
-https://Menixx.github.io/rsschool-cv/cv
+https://Menixx.github.io/rsschool-cv/
