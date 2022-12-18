@@ -5,12 +5,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 header {
     background-color: aqua;
     margin-left: 0;
     padding-left: 0;
+    box-shadow: 0 5px 5px white;
+    background-image: url(https://img.freepik.com/free-vector/modern-flowing-blue-wave-banner-white-background_1035-18960.jpg?auto=format&h=200);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 250px;
+    position: relative;
+}
+
+main {
+    background-image: url(https://www.nicepng.com/png/detail/933-9335230_main-background-image-background-for-accounting-hd.png);
+    background-size: 100%;
 }
 
 h1 {
@@ -20,4 +32,48 @@ h1 {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    
+}
+
+footer {
+    background-color: #474A51;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+code {
+    
+}
+
+.elem {
+    font-size: large;
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+    margin-left: 50px;
+    font-size: x-large;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    float: right;
+    margin-right: 200px;
+    margin-top: 25px;
+}
+
+A:visited {
+    color: blue;
 }

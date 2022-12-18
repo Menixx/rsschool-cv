@@ -5,18 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
     <header>
-        <div class = 'container'></div>
-        <h1>Andrii Mordovets</h1>
-        <img src="" alt="">
+        <h1 style="display: contents;">Andrii Mordovets</h1>
+        <img src="assets/img/avatar.jpg" alt="My Photo" class="avatar">
+        <nav>
+            <a href="#con"><span class="nav">Contacts</span></a>
+            <span>|</span>
+            <a href="#skills"><span class="nav">Skills</span></a>
+            <span>|</span>
+            <a href="#courses"><span class="nav">Courses</span></a>
+            <span>|</span>
+            <a href="#languages"><span class="nav">Languages</span></a>
+            <span>|</span>
+            <a href="#code"><span class="nav">My Code</span></a>
+        </nav>
     </header>
 
     <main>
         <div class = 'container'>
-            <div>
+            <div class="elem" id="con">
                 <h1>Contacts</h1>
                 <ul>
                     <li>+380972124845</li>
@@ -24,11 +37,67 @@
                     <li>Menix#1427</li>
                 </ul>
             </div>
+
+            <div class="elem" id="skills">
+                <h1>Skills</h1>
+                <ul>
+                    <li>Adobe Photoshop</li>
+                    <li>JS (basics)</li>
+                    <li>Python (basics)</li>
+                </ul>
+            </div>
+
+            <div class="elem" id="courses">
+                <h1>Courses</h1>
+                <ul>
+                    <li>RS School «JavaScript/Front-end. Stage 0» (in progress)</li>
+                </ul>
+            </div>
+
+            <div class="elem" id="lang">
+                <h1>Languages</h1>
+                <ul>
+                    <li>English (B1)</li>
+                    <li>Ukrainian (Native)</li>
+                    <li>Russian (Native)</li>
+                    <li>Polish (A2)</li>
+                </ul>
+            </div>
+
+            <div class="code" id="code">
+                <h1>My Code</h1>
+                <code>
+                <pre>
+def find_char(text, char = ''):
+  if len(char) > 1:
+    print('\nI can find only character ((')
+  elif char == '':
+    print('Give me smth to search ;)')
+  else:
+    i = 0
+    count = 0
+    indexes_str = 'Indexes: '
+    while i < len(text):
+      if text[i].lower() == char.lower():
+        count += 1
+        indexes_str += f'{str(i)}, '
+      i += 1
+    indexes_str = indexes_str[:-2]
+      # printing
+    print(text)
+    if count == 0:
+      print('\nNo matches in the text')
+    else:
+      print(f'\nThe letter "{str(char)}" appears in the text {str(count)} times.')
+      print(indexes_str + '.')
+                </pre>
+                </code>
+            </div>
         </div>
     </main>
 
     <footer>
-
+        <img src="assets/svg/RS logo.ico" alt="">
     </footer>
 </body>
 </html>
