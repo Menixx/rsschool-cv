@@ -7,7 +7,13 @@
 
 ---
 
+## About Me:
+I'm novice Front-end developer from Ukrain. I am open to learning and always appreciate guidance and tips from colleagues. I strive to constantly improve my programming skills and expand my experience.
+
+
 ## Skills:
+* HTML
+* CSS
 * JS (basics)
 * Python (basics)
 
@@ -28,7 +34,7 @@ function explode(s) {
 * RS School «JavaScript/Front-end. Stage 0» (in progress)
 
 ## Projects:
-* RS School CV ()
+* RS School CV (https://github.com/Menixx/rsschool-cv)
 
 ## Languages:
 * English (B1)
