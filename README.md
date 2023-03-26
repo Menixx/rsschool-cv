@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Menixx.github.io/rsschool-cv/
